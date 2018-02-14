@@ -4,7 +4,7 @@
 
 <div id="elementscentraux">
       <div class="logo">
-        <img src="picture/googlelogo.png"/>
+        <%= image_tag "googlelogo.png" %>
       </div>
 
       <div class="searchbar">
@@ -37,4 +37,4 @@
   </div>
 
 </footer>
-<script src="main.js"></script>
+<%= javascript_include_tag "main" , "data-turbolinks-track" => "reload" %>
